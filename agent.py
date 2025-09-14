@@ -8,10 +8,10 @@ import google.generativeai as genai
 # CONFIG (replace with your keys)
 # ============================================================
 # It's better to load keys from environment variables for security
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBKUgwLwB_L_OmwU4e0ceYoHwIa5WXvTzE")
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyDxIZ0WmV8pYTjD-Clnp2oKmwZSbGruZms")
-NOTION_API_KEY = os.environ.get("NOTION_API_KEY", "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")
-NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID", "26db8708-1b7e-801f-801c-000b1719bb99")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", " ")
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", " ")
+NOTION_API_KEY = os.environ.get("NOTION_API_KEY", "")
+NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID", " ")
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
