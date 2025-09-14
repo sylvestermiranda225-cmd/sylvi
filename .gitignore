@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+ 
+
+# Build artifacts and distribution
+build/
+dist/
+dist-ssr/
+*.egg-info/
+*.tar.gz
+*.whl
+
+# Secrets and Environment Variables
+.env
+.env.*.local
+*.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Testing & Reports
+.coverage
+htmlcov/
+
+# IDE and Editor Settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
